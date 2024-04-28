@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', system-ui;
+}
+
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  height: 100dvh;
+}
+
+.container {
+  width: 530px;
+  background-color: black;
+  color: rgb(11, 255, 218);
+  border-radius: 130px;
+  border: 30px solid rgb(57, 54, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px;
+
+  .block_1 {
+    display: flex;
+    gap: 10px;
+  }
+
+  .block_2 {
+    display: flex;
+
+    #clock {
+      font-size: 40px;
+    }
+  }
+}
